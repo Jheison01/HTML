@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MI WEB</title>
+</head>
+<body>
+    <header>
+        <h1>MI WEB</h1>
+    </header>
+    <!--H es para encabezados-->
+    <h1>Esto es un encabezado</h1>
+    <a href="blog.html">Ir a blog</a>
+    <h2>Encabezado h2</h2>
+    <h3>Encabezado h3</h3>
+    <h4>Encabezado h4</h4>
+    <h5>Encabezado h5</h5>
+    <h6>Encabezado h6</h6>
+
+    <p>Estamos aprendiendo html</p>
+
+    <!-- P, es para parrafos -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est facilis voluptatum voluptas quos 
+        sequi sed modi rerum accusantium, nihil consequatur commodi reprehenderit pariatur dicta, facere soluta, 
+        at explicabo deleniti qui.</p>
+
+    <!-- Formato de texto -->
+
+    <p>Lorem ipsum <b>dolor sit amet consectetur,</b> adipisicing elit. Modi sapiente earum eius possimus quisquam aliquam! 
+        <strong>Recusandae necessitatibus delectus eveniet fuga,</strong> nihil <i>consequuntur</i> fugiat, <mark>saepe</mark>
+        neque ipsum hic iste, nostrum magni!</p>
+    
+    <p>Aprendiendo Html parte 3
+        Elemenos y formatos de texto
+        <abbr title="Hypertext Markup Language">HTML</abbr> </p>
+
+    <!-- Citar texto -->
+    
+    <blockquote>"Que la comida sea tu alimento, el alimento tu medicina"</blockquote>
+
+    <h2>Encabezado es un elemento en bloque</h2>
+
+    <!-- Separaciones de web o saltos de linea -->
+
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nesciunt culpa sapiente, 
+        repudiandae architecto autem quo asperiores rem<br>
+         perferendis cupiditate ipsam iste, provident ducimus quidem amet, nam quisquam hic delectus.</p>
+
+    <hr>
+    <!-- Atributos -->
+
+    <p title="Html curso">Voy por la parte 4 del curso de HTML</p>
+
+    <!-- Imagenes -->
+
+    <img src="Imagenes/Pacman.jpg" alt="pacman1" width="200" >
+    <hr>
+
+    <!-- imagen en enlace -->
+
+    <a href="Imagenes/Pacman.jpg">
+        <img src="Imagenes/Pacman.jpg" alt="pacman1" width="200" >
+    </a>
+
+    <hr>
+
+    <!-- Enlaces -->
+        <!-- Ruta absoluta -->
+    <a href="https://www.netflix.com/co/" target="_self"> Ir a Netflix</a>
+    <br>
+            <!-- Abrir en nueva pestaña con el atributo target =_blank -->
+        <a href="https://www.netflix.com/co/" target="_blank"> Ir Netflix</a>
+        <br>
+        <!-- Ruta relativa -->
+    <a href="Imagenes/Pacman.jpg">Clic aqui Pacman</a>
+    <br><br>
+    <hr>
+    
+    <!-- Formularios -->
+    <form action="">
+
+        <div>
+        <label for="">Nombre</label>
+        <input type="text " name="Nombre">
+        </div>
+        <br>
+        <div>
+        <label for="">Apellido</label>
+        <input type="text " name="Apellido">
+        </div>
+        <br>
+        <div>
+        <label for="">Mail</label>
+        <input type="mail " name="correo">
+        </div>
+        <br>
+        <div>
+            <textarea name="Mensaje" id="" >Mensaje</textarea>
+        </div>
+        <br>
+        <!-- Formulario de opcion multiple -->
+        <div>
+        <label for="">Genero</label>
+        <select name="Genero" id="">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Intersexual">Intersexual</option>
+        </select>
+        </div>
+        <input type="radio" name="Genero" value="Masculino">Masculino<br>
+        <input type="radio" name="Genero" value="Femenino">Femenino<br>
+        <input type="radio" name="Genero" value="Intersexual">Intersexual<br>
+        <br>
+        <!-- Imput number -->
+        <div>
+            <label for="">Edad</label>
+            <input type="number" name="Edad">
+        </div>
+        <br>
+        <!-- Imput date -->
+        <div>
+            <label for="">Cumpleaños</label>
+            <input type="date" name="Cumpleaños">
+        </div>
+        <!-- Imput checkbox -->
+        <div>
+            <label for="">Bici</label>
+            <input type="checkbox" name="Vehiculo">
+        </div>
+        <br>
+        <div>
+            <label for="">Coche</label>
+            <input type="checkbox" name="Vehiculo">
+        </div>
+        <br>
+        <!-- Atributo place-holder -->
+        <div>
+            <label for="">Nombre</label>
+            <input type="text " name="Nombre" placeholder="Introduzca su nombre">
+        </div>
+        <br>
+        <!-- Boton de enviar -->
+        <input type="submit" name="Enviar" value="Enviar formulario">
+    </form>
+    <br><br><br><br>
+    <hr>
+    <br><br><br><br>
+    <!-- Forma diferente de poner botones -->
+    <button>Clic aqui!</button>
+    <!-- Mensaje de confirmación o mensaje nuevo recuadro -->
+    <button onclick="alert('Estoy aprendiendo HTML')">Clic aqui!</button>
+    <br><br>
+
+    <hr>
+    <br><br>
+
+    <!-- LISTAS -->
+
+    <!-- LISTAS ORDENADAS -->
+    <ol>
+        <li>Coche</li>
+        <li>Moto</li>
+        <li>Barco</li>
+        <li>Bicicleta</li>
+    </ol>
+
+    <!-- LISTAS DESORDENADAS -->
+    <ul>
+        <li>Inicio</li>
+        <li>Tienda</li>
+        <li>Sobre Nosotros</li>
+        <li>Contacto</li>
+    </ul>
+    <br><br>
+    <hr>
+    <br><br>
+    <!-- TABLAS -->
+
+    <table>
+        <!-- Encabezado -->
+        <thead>
+            <!-- Poner en linea o organizar los datos en linea -->
+            <tr>
+                <!-- LISTAS EN thead -->
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <!-- Contenido -->
+        <tbody>
+            <!-- Fila -->
+            <tr>
+                <!-- Datos -->
+                <td>Tom Cruise</td>
+                <td>6666666666</td>
+                <td>100</td>
+            </tr>
+            <!-- Introducir mas datos -->
+            <tr>
+                <!-- Datos -->
+                <td>Carmen Sevilla</td>
+                <td>7777777777</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+    </table>
+    <footer>
+        <p> Copyright &copy; Mi Web </p>
+    </footer>
+    <br><br>
+</body>
+</html>
